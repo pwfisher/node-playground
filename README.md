@@ -1,7 +1,7 @@
 node-playground
 ===============
 
-Gettting started with node.
+Getting started with node.
 
 A simple web server based on node-static. with extra comments to help the novice node programmer.
 

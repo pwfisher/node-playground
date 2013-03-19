@@ -1,7 +1,7 @@
 {
 	"name": "node-playground",
 	"description" : "Getting started with Node.js.",
-	"keywords" : [ "http", "static", "web", "server", "tutorial", "howto" ],
+	"keywords" : [ "http", "static", "web", "server", "postscript", "tutorial", "howto" ],
 	"author": "Patrick Fisher <patrick@pwfisher.com>",
 	"url" : "http://github.com/pwfisher/node-playground",
 	"version": "0.0.1",
@@ -11,7 +11,7 @@
 		"url": "git://github.com/pwfisher/node-playground.git"
 	},
 	"dependencies": {
-        "node-static": "0.6.5"
+        "node-staticp": "0.6.5"
     },
 	"engines" : { "node": ">= 0.4.1" },
 }

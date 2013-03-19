@@ -6,11 +6,14 @@ var
     http = require('http'),
 
     /**
-     * node-static: a simple, rfc 2616 compliant file streaming module for node.
-     * @see https://github.com/cloudhead/node-static
+     * node-staticp: a simple, rfc 2616 compliant file streaming module for node, plus postscript.
+     * @see https://github.com/pwfisher/node-staticp
      */
-    static = require('node-static'),
-    staticServer = new(static.Server)('../../public_html'),
+    static = require('node-staticp'),
+    staticOptions = {
+        'postscript': 'inc/postscript.html'
+    },
+    staticServer = new(static.Server)('../../public_html', staticOptions),
 
     /**
      * HTTP 301 redirect map.
@@ -63,6 +66,5 @@ var
      * @var {http.Server}
      */
     httpServer = http.createServer(requestListener);
-
 
 httpServer.listen(8081);
