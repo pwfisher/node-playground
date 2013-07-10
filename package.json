@@ -4,7 +4,7 @@
 	"keywords" : [ "http", "static", "web", "server", "postscript", "tutorial", "howto" ],
 	"author": "Patrick Fisher <patrick@pwfisher.com>",
 	"url" : "http://github.com/pwfisher/node-playground",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"main" : "./front_controller.js",
 	"repository": {
 		"type": "git",
