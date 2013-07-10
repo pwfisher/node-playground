@@ -11,7 +11,9 @@
 		"url": "git://github.com/pwfisher/node-playground.git"
 	},
 	"dependencies": {
-        "node-staticp": "1.1.1"
+        "node-staticp": "1.1.1",
+        "seaport": "1.x",
+        "http-proxy": "*"
     },
 	"engines" : { "node": ">= 0.4.1" }
 }
