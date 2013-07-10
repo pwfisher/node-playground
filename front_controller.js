@@ -1,4 +1,4 @@
-
+/*global require, console */
 var
     /**
      * Node built-in HTTP server module.
@@ -11,6 +11,7 @@ var
      */
     static = require('node-staticp'),
     staticOptions = {
+        'isMultiDomain': true,
         'postscript': 'inc/postscript.html'
     },
     staticServer = new(static.Server)('../../public_html', staticOptions),
@@ -20,7 +21,7 @@ var
      * No support for query param variations or other 3XX response codes.
      */
     redirectMap = {
-        '/nucleus/index.php?itemid=45': '/2009/commandline-parseargs-php-cli-options-parser.html',
+        '/nucleus/index.php?itemid=45': '/2009/commandline-parseargs-php-cli-options-parser.html'
     },
 
     /**
